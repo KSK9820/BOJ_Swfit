@@ -6,10 +6,6 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		53426C362891714C001E254B /* 2981.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53426C352891714C001E254B /* 2981.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		53426C2128913F83001E254B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,6 +19,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5311687F2899606E002002E1 /* 3036.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3036.swift; sourceTree = "<group>"; };
+		531168812899637D002002E1 /* 11050.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11050.swift; sourceTree = "<group>"; };
+		5311688328996C32002002E1 /* 11051.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11051.swift; sourceTree = "<group>"; };
 		53426C2328913F83001E254B /* 정수론및조합론 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "정수론및조합론"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53426C2628913F83001E254B /* 5086.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5086.swift; sourceTree = "<group>"; };
 		53426C2D2891415C001E254B /* 1037.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1037.swift; sourceTree = "<group>"; };
@@ -66,6 +65,9 @@
 				53426C2F28914253001E254B /* 2609.swift */,
 				53426C3128916075001E254B /* 1934.swift */,
 				53426C352891714C001E254B /* 2981.swift */,
+				5311687F2899606E002002E1 /* 3036.swift */,
+				531168812899637D002002E1 /* 11050.swift */,
+				5311688328996C32002002E1 /* 11051.swift */,
 			);
 			path = "정수론및조합론";
 			sourceTree = "<group>";
@@ -128,7 +130,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53426C362891714C001E254B /* 2981.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
