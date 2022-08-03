@@ -22,6 +22,10 @@
 		5311687F2899606E002002E1 /* 3036.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3036.swift; sourceTree = "<group>"; };
 		531168812899637D002002E1 /* 11050.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11050.swift; sourceTree = "<group>"; };
 		5311688328996C32002002E1 /* 11051.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11051.swift; sourceTree = "<group>"; };
+		53116885289A83CD002002E1 /* 1010.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1010.swift; sourceTree = "<group>"; };
+		53116887289A8FE0002002E1 /* 9375.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9375.swift; sourceTree = "<group>"; };
+		53116889289A9621002002E1 /* 1676.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1676.swift; sourceTree = "<group>"; };
+		5311688B289ADA6F002002E1 /* 2004.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2004.swift; sourceTree = "<group>"; };
 		53426C2328913F83001E254B /* 정수론및조합론 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "정수론및조합론"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53426C2628913F83001E254B /* 5086.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5086.swift; sourceTree = "<group>"; };
 		53426C2D2891415C001E254B /* 1037.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1037.swift; sourceTree = "<group>"; };
@@ -68,6 +72,10 @@
 				5311687F2899606E002002E1 /* 3036.swift */,
 				531168812899637D002002E1 /* 11050.swift */,
 				5311688328996C32002002E1 /* 11051.swift */,
+				53116885289A83CD002002E1 /* 1010.swift */,
+				53116887289A8FE0002002E1 /* 9375.swift */,
+				53116889289A9621002002E1 /* 1676.swift */,
+				5311688B289ADA6F002002E1 /* 2004.swift */,
 			);
 			path = "정수론및조합론";
 			sourceTree = "<group>";
@@ -104,6 +112,7 @@
 				TargetAttributes = {
 					53426C2228913F83001E254B = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -254,10 +263,17 @@
 		53426C2B28913F83001E254B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CX8P4D8Z7M;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -265,9 +281,15 @@
 		53426C2C28913F83001E254B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CX8P4D8Z7M;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
